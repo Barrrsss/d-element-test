@@ -1,0 +1,12 @@
+.body {
+  position: relative;
+  min-height: 100vh;
+  background: #FFFFFF;
+  font-style: normal;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.page {
+  flex-grow: 1;
+}

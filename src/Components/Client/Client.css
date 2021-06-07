@@ -1,0 +1,63 @@
+.client {
+  height: 680px;
+  background-color: #5A98D0;
+  border-radius: 200px 0 0 0;
+  display: flex;
+  justify-content: center; }
+  .client__header {
+    width: 860px;
+    height: 92px;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding-top: 94px; }
+  .client__title {
+    width: 223px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em; }
+  .client__subtitle {
+    width: 540px;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    line-height: 19px;
+    opacity: 0.6; }
+  .client__table {
+    width: 950px;
+    height: 256px;
+    margin-top: 123px;
+    color: #FFFFFF;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 46px;
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .client__table-cell {
+    width: 235px;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF; }
+    .client__table-cell:hover {
+      cursor: pointer;
+      color: black; }
+    .client__table-cell:nth-child(n+5) {
+      border-bottom: none; }
+    .client__table-cell:nth-child(4n+4) {
+      border-right: none; }
+    .client__table-cell_more {
+      background-color: rgba(31, 63, 104, 0.2); }
+
+/*# sourceMappingURL=Client.css.map */

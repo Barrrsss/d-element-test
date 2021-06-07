@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header__logo {
+    width: 48px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: 83px; }
+  .header__menu {
+    width: 32px;
+    height: 32px;
+    background-image: url(../../images/header-menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin-top: 48px;
+    margin-right: 83px; }
+    .header__menu:hover {
+      cursor: pointer; }
+
+/*# sourceMappingURL=Header.css.map */

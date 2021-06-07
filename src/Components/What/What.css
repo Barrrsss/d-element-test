@@ -1,0 +1,25 @@
+.what {
+  width: 940px;
+  height: 1162px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 212px; }
+  .what__flex_one {
+    margin-left: 80px; }
+  .what__title {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 600;
+    width: 358px;
+    height: 138px;
+    color: #316099;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 158px;
+    margin-left: -80px; }
+  .what__margin {
+    margin-top: 180px; }
+
+/*# sourceMappingURL=What.css.map */

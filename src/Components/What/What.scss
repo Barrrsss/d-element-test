@@ -1,0 +1,29 @@
+@import "../../const/mixin";
+@import "../../const/color";
+
+.what {
+  width: 940px;
+  height: 1162px;
+  @include m0a;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 212px;
+  &__flex{
+    &_one {
+      margin-left: 80px;
+    }
+  }
+  &__title {
+    @include gilroy;
+    font-weight: 600;
+    width: 358px;
+    height: 138px;
+    color: $darkblue;
+    @include f36;
+    margin-bottom: 158px;
+    margin-left: -80px;
+  }
+  &__margin {
+    margin-top: 180px;
+  }
+}

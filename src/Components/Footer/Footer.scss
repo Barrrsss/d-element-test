@@ -1,0 +1,117 @@
+@import "../../const/mixin";
+@import "../../const/color";
+.footer {
+  background-color: #5A98D0;
+  &_white {
+    background-color: #FFFFFF;
+  }
+  &__container{
+    width: 1270px;
+    background: #316099;
+    border-radius: 0 200px 0 0;
+  }
+  &__header{
+    height: 391px;
+    width: 1073px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  }
+  &__text{
+    margin-left: 213px;
+    @include gilroy;
+    color:$white;
+  }
+  &__title{
+    width: 337px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    margin-bottom: 32px;
+  }
+  &__subtitle{
+    width: 460px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+  }
+  &__button{
+    width: 220px;
+    height: 56px;
+    background: $grayblue;
+    border-radius: 10px;
+    @include gilroy;
+    outline: none;
+    border: none;
+    color: $white;
+    &:hover{
+      @include pointer;
+      color: $black;
+    }
+  }
+  &__contact {
+    width: 860px;
+    color: $white;
+    margin-top: 93px;
+    margin-left: 213px;
+    display: flex;
+    flex-direction: row;
+  }
+  &__table-one {
+    width: 300px;
+    list-style-type: none;
+    @include m0;
+    padding: 0;
+    &_flex {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  &__table {
+    padding: 0;
+    list-style-type: none;
+    margin-left: 100px;
+  }
+  &__cell{
+    @include gilroy;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    &_title {
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 600;
+    }
+    &_title-one{
+      font-size: 28px;
+      line-height: 46px;
+      letter-spacing: 0.02em;
+      background-image: url(../../images/footer-logo.svg);
+      background-position: 0 50%;
+      background-repeat: no-repeat;
+      padding-left: 63px;
+      font-weight: 600;
+      margin-bottom: 33px;
+    }
+    &_point {
+      margin-right: 16px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.05em;
+    }
+
+  }
+  &__copyright {
+    @include gilroy;
+    @include f16;
+    color: $white;
+    letter-spacing: 0.05em;
+    opacity: 0.4;
+    margin: 64px 0 0 213px;
+    padding-bottom: 64px;
+  }
+}
