@@ -1,2 +1,127 @@
 @import "../../const/mixin";
 @import "../../const/color";
+
+.form {
+  display: flex;
+  flex-direction: row;
+  margin-left: 213px;
+  margin-top: 57px;
+  align-items: center;
+  &__contact{
+    width: 313px;
+    height: 683px;
+    margin-right: 88px;
+  }
+  &__form-image{
+    width: 300px;
+    height: 181px;
+    margin-bottom: 31px;
+    padding-left: 11px;
+  }
+  &__table {
+    margin-top: 40px;
+    padding-left: 0;
+    list-style-type: none;
+  }
+  &__title {
+    @include gilroy;
+    color: $blue;
+    @include f20;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  &__cell {
+    @include gilroy;
+    @include f16;
+    color: $blue;
+    @include opac6;
+    padding-left: 40px;
+    margin-top: 16px;
+    &_phone {
+      background-image: url(../../images/form-phone.svg);
+      background-repeat: no-repeat;
+    }
+    &_web {
+      background-image: url(../../images/form-web.svg);
+      background-repeat: no-repeat;
+    }
+    &_email {
+      background-image: url(../../images/form-email.svg);
+      background-repeat: no-repeat;
+    }
+    &_margin {
+      padding-left: 0;
+    }
+  }
+  &__fields {
+    width: 540px;
+    height: 800px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+  }
+  &__field {
+    width: 428px;
+    height: 72px;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    margin-left: 56px;
+    &::placeholder{
+      @include gilroy;
+      @include f16;
+      @include opac6;
+      letter-spacing: 0.04em;
+      color: $blue;
+      padding-left: 42px;
+    }
+    &-title{
+      @include gilroy;
+      @include f20;
+      letter-spacing: 0.04em;
+      color: $blue;
+      font-weight: 600;
+      opacity: 0.8;
+      margin-left: 56px;
+    }
+    &-subtitle{
+      @include gilroy;
+      @include f16;
+      letter-spacing: 0.04em;
+      color: $blue;
+      opacity: 0.8;
+      margin: 32px 0 8px 56px;
+    }
+    &_message {
+      width: 428px;
+      height: 144px;
+      resize: none;
+      &::placeholder{
+        padding-top: 21px;
+      }
+    }
+
+  }
+  &__button {
+    width: 428px;
+    height: 72px;
+    filter: drop-shadow(5px 10px 20px rgba(16, 112, 177, 0.2));
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    background: $grayblue;
+    border: none;
+    @include gilroy;
+    @include f16;
+    color:$white;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-left: 56px;
+    margin-top: 72px;
+    &:hover {
+      @include pointer;
+      color:$black;
+    }
+  }
+}

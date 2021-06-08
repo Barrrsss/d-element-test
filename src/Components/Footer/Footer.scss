@@ -6,13 +6,14 @@
     background-color: #FFFFFF;
   }
   &__container{
-    width: 1270px;
+    max-width: 1270px;
     background: #316099;
     border-radius: 0 200px 0 0;
+
   }
   &__header{
     height: 391px;
-    width: 1073px;
+    max-width: 1073px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,6 +47,7 @@
     outline: none;
     border: none;
     color: $white;
+    margin-right: 40px;
     &:hover{
       @include pointer;
       color: $black;
@@ -113,5 +115,73 @@
     opacity: 0.4;
     margin: 64px 0 0 213px;
     padding-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+.footer{
+  &__header {
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__button {
+    margin-bottom: 50px;
+  }
+  &__contact {
+    display: none;
+  }
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer{
+    &__container {
+      border-radius: 0 100px 0 0;
+    }
+    &__text {
+      width: 280px;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    &__title{
+      width: 240px;
+      @include f20;
+      text-align: center;
+    }
+    &__subtitle{
+      width: 280px;
+      @include f18;
+    }
+    &__header {
+      flex-direction: column;
+    }
+    &__button {
+      margin-bottom: 50px;
+      margin-right: 0;
+    }
+    &__contact {
+      width: 260px;
+      color: $white;
+      padding-top: 20px;
+      margin-top: 10px;
+      margin-left: 5px;
+      display: flex;
+      flex-direction: column;
+    }
+    &__table {
+      width: 250px;
+      margin-left: 30px;
+      &-one {
+        width: 270px;
+        margin-left: 15px;
+      }
+    }
+    &__copyright {
+      @include f12;
+      letter-spacing: 0.05em;
+      opacity: 0.4;
+      margin: 64px 0 0 20px;
+      padding-bottom: 34px;
+    }
   }
 }

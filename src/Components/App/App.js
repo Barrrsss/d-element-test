@@ -44,11 +44,11 @@ function App() {
             <Header handleMenuOpen={openMenu}/>
             <div className="page">
                 <Switch>
-                    <Route exact path="/">
-                        <Main/>
-                    </Route>
                     <Route exact path="/contact">
                         <Contact/>
+                    </Route>
+                    <Route exact path="/*">
+                        <Main/>
                     </Route>
                 </Switch>
             </div>
