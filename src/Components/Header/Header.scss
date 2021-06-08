@@ -9,6 +9,11 @@
     height: 48px;
     margin-top: 40px;
     margin-left: 83px;
+    transition: opacity 0.6s linear;
+    &:hover{
+      @include pointer;
+      @include opac6;
+    }
   }
   &__menu {
     width: 32px;
@@ -22,7 +27,9 @@
     margin-top: 48px;
     margin-right: 83px;
     padding: 0;
+    transition: opacity 0.6s linear;
     &:hover{
+      @include opac6;
       @include pointer;
     }
   }

@@ -53,7 +53,9 @@
     @include f16;
     color: #FFFFFF;
     border: none;
+    transition: opacity 0.6s linear;
     &:hover {
+      opacity: 0.7;
       @include pointer;
     }
   }
