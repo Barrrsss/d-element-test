@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Barrrsss/d-element-test/static/css/main.9092ff9e.chunk.css",
+    "main.js": "/Barrrsss/d-element-test/static/js/main.ae4bd6a5.chunk.js",
+    "main.js.map": "/Barrrsss/d-element-test/static/js/main.ae4bd6a5.chunk.js.map",
+    "runtime-main.js": "/Barrrsss/d-element-test/static/js/runtime-main.f4144180.js",
+    "runtime-main.js.map": "/Barrrsss/d-element-test/static/js/runtime-main.f4144180.js.map",
+    "static/js/2.832c96ef.chunk.js": "/Barrrsss/d-element-test/static/js/2.832c96ef.chunk.js",
+    "static/js/2.832c96ef.chunk.js.map": "/Barrrsss/d-element-test/static/js/2.832c96ef.chunk.js.map",
+    "static/js/3.12aa4cdf.chunk.js": "/Barrrsss/d-element-test/static/js/3.12aa4cdf.chunk.js",
+    "static/js/3.12aa4cdf.chunk.js.map": "/Barrrsss/d-element-test/static/js/3.12aa4cdf.chunk.js.map",
+    "index.html": "/Barrrsss/d-element-test/index.html",
+    "static/css/main.9092ff9e.chunk.css.map": "/Barrrsss/d-element-test/static/css/main.9092ff9e.chunk.css.map",
+    "static/js/2.832c96ef.chunk.js.LICENSE.txt": "/Barrrsss/d-element-test/static/js/2.832c96ef.chunk.js.LICENSE.txt",
+    "static/media/Digital.94b99dc5.png": "/Barrrsss/d-element-test/static/media/Digital.94b99dc5.png",
+    "static/media/index.css": "/Barrrsss/d-element-test/static/media/Gilroy-Regular.fa652e76.ttf",
+    "static/media/Techology.9a91dd27.png": "/Barrrsss/d-element-test/static/media/Techology.9a91dd27.png",
+    "static/media/business.48da456b.png": "/Barrrsss/d-element-test/static/media/business.48da456b.png",
+    "static/media/Menu.scss": "/Barrrsss/d-element-test/static/media/close.4828fddb.svg",
+    "static/media/Contact.scss": "/Barrrsss/d-element-test/static/media/contact-background.503c5c57.png",
+    "static/media/contact-map.d2b18eec.png": "/Barrrsss/d-element-test/static/media/contact-map.d2b18eec.png",
+    "static/media/Footer.scss": "/Barrrsss/d-element-test/static/media/footer-logo.4fd99b9c.svg",
+    "static/media/Form.scss": "/Barrrsss/d-element-test/static/media/form-web.862d8b5a.svg",
+    "static/media/form-image.1627ad9a.png": "/Barrrsss/d-element-test/static/media/form-image.1627ad9a.png",
+    "static/media/header-logo.d679a3b6.svg": "/Barrrsss/d-element-test/static/media/header-logo.d679a3b6.svg",
+    "static/media/Header.scss": "/Barrrsss/d-element-test/static/media/header-menu.df753100.svg",
+    "static/media/hero.5e7966dd.png": "/Barrrsss/d-element-test/static/media/hero.5e7966dd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4144180.js",
+    "static/js/2.832c96ef.chunk.js",
+    "static/css/main.9092ff9e.chunk.css",
+    "static/js/main.ae4bd6a5.chunk.js"
+  ]
+}
