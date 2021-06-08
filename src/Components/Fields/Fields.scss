@@ -1,0 +1,162 @@
+@import "../../const/mixin";
+@import "../../const/color";
+
+.form {
+  &__fields {
+    width: 540px;
+    height: 800px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+  }
+  &__field {
+    padding-left: 10px;
+    width: 428px;
+    height: 72px;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    margin-left: 56px;
+    &_type_error{
+      color: $red;
+    }
+    &-error {
+      width: 428px;
+      min-height: 36px;
+      font-weight: 400;
+      @include f14;
+      color: $red;
+      margin: 0 0 5px 56px;
+    }
+    &::placeholder{
+      @include gilroy;
+      @include f16;
+      @include opac6;
+      letter-spacing: 0.04em;
+      color: $blue;
+      padding-left: 42px;
+    }
+    &-title{
+      @include gilroy;
+      @include f20;
+      letter-spacing: 0.04em;
+      color: $blue;
+      font-weight: 600;
+      opacity: 0.8;
+      margin-left: 56px;
+    }
+    &-subtitle{
+      @include gilroy;
+      @include f16;
+      letter-spacing: 0.04em;
+      color: $blue;
+      opacity: 0.8;
+      margin: 32px 0 8px 56px;
+    }
+    &-message {
+      width: 428px;
+      height: 144px;
+      resize: none;
+      &::placeholder{
+        padding-top: 21px;
+      }
+    }
+
+  }
+  &__button {
+    width: 428px;
+    height: 72px;
+    filter: drop-shadow(5px 10px 20px rgba(16, 112, 177, 0.2));
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    background: $grayblue;
+    border: none;
+    @include gilroy;
+    @include f16;
+    color:$white;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-left: 56px;
+    margin-top: 72px;
+    &:hover {
+      @include pointer;
+      color:$black;
+    }
+    &:disabled{
+      @include opac6;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1223px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 57px;
+
+    &__fields {
+      width: 700px;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__field {
+      width: 620px;
+      margin-left: 0;
+
+      &-title{
+        width: 620px;
+        margin-left: 0;
+      }
+      &-subtitle {
+        width: 620px;
+        margin-left: 5px;
+      }
+      &-message {
+        width: 620px;
+      }
+    }
+    &__button {
+      width: 250px;
+      margin-left: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 57px;
+        &__fields {
+      width: 300px;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__field {
+      width: 280px;
+      margin-left: 0;
+      &-title{
+        width: 300px;
+        margin-left: 25px;
+      }
+      &-subtitle {
+        width: 300px;
+        margin-left: 15px;
+      }
+      &-message {
+        width: 280px;
+      }
+    }
+    &__button {
+      width: 250px;
+      margin-left: 0;
+    }
+  }
+}

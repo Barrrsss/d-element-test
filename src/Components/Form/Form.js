@@ -1,7 +1,8 @@
 import "./Form.scss";
 import form from "../../images/form-image.png"
+import Fields from '../Fields/Fields';
 
-function Form() {
+function Form({handleSubmit}) {
     return (
         <section className="form">
             <div className="form__contact">
@@ -21,17 +22,7 @@ function Form() {
                     <li className="form__cell form__cell_email">hello.afrian@gmail.com</li>
                 </ul>
             </div>
-            <div className="form__fields">
-                <h3 className="form__field-title">SEND US MESSAGE</h3>
-                <p className="form__field-subtitle">Full Name</p>
-                <input className="form__field" type="text" name="name" placeholder="Your Name" required/>
-                <p className="form__field-subtitle">Email</p>
-                <input className="form__field" type="text" name="email" placeholder="Your Email" required/>
-                <p className="form__field-subtitle">Message</p>
-                <textarea className="form__field form__field-message" name="message"
-    placeholder="Your Message"  required/>
-                <button className="form__button">SUBMIT</button>
-            </div>
+            <Fields handleSubmit={handleSubmit}/>
         </section>
 
     );

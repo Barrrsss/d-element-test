@@ -1,6 +1,6 @@
 import './Footer.scss';
 
-function Footer({pathname}) {
+function Footer({pathname, openPopup}) {
     return (
         <footer className={`footer
     ${(pathname === '/contact') && 'footer_white'}`}>
@@ -12,7 +12,7 @@ function Footer({pathname}) {
                         <p className='footer__subtitle'>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     </div>
-                        <button className='footer__button'> Let’s Talk</button>
+                        <button className='footer__button' onClick={openPopup}> Let’s Talk</button>
 
                 </div>
 
