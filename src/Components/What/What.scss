@@ -28,7 +28,18 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1223px) {
+  .what {
+    width: 750px;
+    &__title {
+      margin-left: 0;
+    }
+    &__flex{
+      &_one {
+        margin-left: 20px;
+      }
+    }
+  }
 
 }
 

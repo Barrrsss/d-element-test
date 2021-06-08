@@ -22,4 +22,32 @@
   .what__margin {
     margin-top: 180px; }
 
+@media screen and (min-width: 768px) and (max-width: 1223px) {
+  .what {
+    width: 750px; }
+    .what__title {
+      margin-left: 0; }
+    .what__flex_one {
+      margin-left: 20px; } }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .what {
+    width: 300px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0; }
+    .what__flex_one {
+      margin-left: 0; }
+    .what__title {
+      width: 300px;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+      margin: 50px 0 30px 0;
+      height: 50px; }
+    .what__margin {
+      margin-top: 20px;
+      margin-bottom: 50px; } }
+
 /*# sourceMappingURL=What.css.map */

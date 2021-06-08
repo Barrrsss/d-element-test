@@ -12,7 +12,8 @@ function Footer({pathname}) {
                         <p className='footer__subtitle'>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     </div>
-                    <button className='footer__button'>Let’s Talk</button>
+                        <button className='footer__button'> Let’s Talk</button>
+
                 </div>
 
             <div className='footer__contact'>

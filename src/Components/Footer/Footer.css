@@ -3,12 +3,12 @@
   .footer_white {
     background-color: #FFFFFF; }
   .footer__container {
-    width: 1270px;
+    max-width: 1270px;
     background: #316099;
     border-radius: 0 200px 0 0; }
   .footer__header {
     height: 391px;
-    width: 1073px;
+    max-width: 1073px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,7 +41,8 @@
     font-weight: 400;
     outline: none;
     border: none;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    margin-right: 40px; }
     .footer__button:hover {
       cursor: pointer;
       color: #000000; }
@@ -97,11 +98,74 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 26px;
     color: #FFFFFF;
     letter-spacing: 0.05em;
     opacity: 0.4;
     margin: 64px 0 0 213px;
     padding-bottom: 64px; }
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+  .footer__header {
+    flex-direction: column;
+    justify-content: center; }
+  .footer__text {
+    margin-top: 20px;
+    margin-left: 0; }
+  .footer__button {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+  .footer__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    width: 760px; }
+  .footer__table {
+    width: 300px;
+    margin-left: 0; } }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__container {
+    border-radius: 0 100px 0 0; }
+  .footer__text {
+    width: 280px;
+    margin-top: 20px;
+    margin-left: 20px; }
+  .footer__title {
+    width: 240px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center; }
+  .footer__subtitle {
+    width: 280px;
+    font-size: 18px;
+    line-height: 22px; }
+  .footer__header {
+    flex-direction: column; }
+  .footer__button {
+    margin-bottom: 50px;
+    margin-right: 0; }
+  .footer__contact {
+    width: 260px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column; }
+  .footer__table {
+    width: 250px;
+    margin-left: 30px; }
+    .footer__table-one {
+      width: 270px;
+      margin-left: 15px; }
+  .footer__copyright {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    opacity: 0.4;
+    margin: 64px 0 0 20px;
+    padding-bottom: 34px; } }
 
 /*# sourceMappingURL=Footer.css.map */

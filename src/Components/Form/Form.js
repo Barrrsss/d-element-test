@@ -28,8 +28,8 @@ function Form() {
                 <p className="form__field-subtitle">Email</p>
                 <input className="form__field" type="text" name="email" placeholder="Your Email" required/>
                 <p className="form__field-subtitle">Message</p>
-                <textarea className="form__field form__field_message" type="textarea" name="message"
-                          placeholder="Your Message"  required></textarea>
+                <textarea className="form__field form__field-message" name="message"
+    placeholder="Your Message"  required/>
                 <button className="form__button">SUBMIT</button>
             </div>
         </section>

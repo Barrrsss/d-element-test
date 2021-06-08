@@ -37,7 +37,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 26px;
     color: #1F3F68;
     opacity: 0.6;
     margin: 0; }
@@ -52,10 +52,48 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 26px;
     color: #FFFFFF;
     border: none; }
     .hero__button:hover {
       cursor: pointer; }
+
+@media screen and (min-width: 768px) and (max-width: 1223px) {
+  .hero__content {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 0; }
+  .hero__image {
+    display: none; }
+  .hero__title {
+    text-align: center; } }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .hero {
+    height: 100%;
+    margin-bottom: 30px; }
+    .hero__background {
+      display: none; }
+    .hero__title {
+      width: 290px;
+      text-align: center;
+      font-size: 29px;
+      line-height: 35px; }
+    .hero__subtitle {
+      width: 290px;
+      text-align: center;
+      font-size: 18px;
+      line-height: 22px; }
+    .hero__content {
+      margin-top: 10px;
+      margin-left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .hero__image {
+      display: none; } }
 
 /*# sourceMappingURL=Hero.css.map */

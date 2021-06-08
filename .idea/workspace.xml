@@ -2,20 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="634eb89b-0eac-4019-9a67-7b3a77b0b2f7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App/.sass-cache/f856f65aec7c08b275f1a41a5128e345f8171fd4/App.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/.sass-cache/f856f65aec7c08b275f1a41a5128e345f8171fd4/App.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/App/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Card/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Card/.sass-cache/b7c88f01897bfb8545627bd64061f0d0362f9700/Card.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/.sass-cache/b7c88f01897bfb8545627bd64061f0d0362f9700/Card.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Card/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/Card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Card/Card.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/Card.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/Card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Card/Card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Card/Card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Client/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Client/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Client/.sass-cache/f839687fc41d2c745e42f82aaef27fe7eef44883/Client.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Client/.sass-cache/f839687fc41d2c745e42f82aaef27fe7eef44883/Client.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Client/Client.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Client/Client.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Client/Client.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Client/Client.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Client/Client.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Client/Client.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contact/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contact/.sass-cache/e1daca6ac72c21ff87e1dfeadc4e30a73094c6e8/Contact.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact/.sass-cache/e1daca6ac72c21ff87e1dfeadc4e30a73094c6e8/Contact.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contact/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact/Contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contact/Contact.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact/Contact.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Contact/Contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact/Contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/.sass-cache/5cbba1192f19521afbdff9aaabcf260bac5a98bb/Footer.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/.sass-cache/5cbba1192f19521afbdff9aaabcf260bac5a98bb/Footer.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Form/.sass-cache/9798a47fb708b69b85bad36c5ad19c34376d84d3/Form.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Form/.sass-cache/9798a47fb708b69b85bad36c5ad19c34376d84d3/Form.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Form/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Form/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Form/Form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Form/Form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Form/Form.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Form/Form.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Form/Form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Form/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Form/Form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/.sass-cache/5fe6806d77b931b0fec34766b515783fd39a79cb/Header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/.sass-cache/5fe6806d77b931b0fec34766b515783fd39a79cb/Header.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Hero/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Hero/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Hero/.sass-cache/a7bd0298bf1d39778903f70c8c3c87e24fb334dc/Hero.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Hero/.sass-cache/a7bd0298bf1d39778903f70c8c3c87e24fb334dc/Hero.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Hero/Hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Hero/Hero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Hero/Hero.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Hero/Hero.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Hero/Hero.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Hero/Hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Hero/Hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Main/.sass-cache/3ebcbe4e0abab28446bc84fcd24e87b7d6c24b5c/Main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Main/.sass-cache/3ebcbe4e0abab28446bc84fcd24e87b7d6c24b5c/Main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Main/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Main/Main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Main/Main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Main/Main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Main/Main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Main/Main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Menu/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Menu/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Menu/.sass-cache/d087f76bd27426ac4c40e1d3a862b78d77c241ef/Menu.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Menu/.sass-cache/d087f76bd27426ac4c40e1d3a862b78d77c241ef/Menu.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Menu/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Menu/Menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Menu/Menu.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Menu/Menu.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Menu/Menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Menu/Menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/What/.sass-cache/6f6c24a95c9c2f29bf60ea2428c558ad1dcd714c/What.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/What/.sass-cache/6f6c24a95c9c2f29bf60ea2428c558ad1dcd714c/What.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/What/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/What/.sass-cache/9f639fd39a84e34feeb72bcb57ce5a844fa74a6d/mixin.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/What/What.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/What/What.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/What/What.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/What/What.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/What/What.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/What/What.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/const/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/const/mixin.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -124,11 +124,25 @@
     flex-direction: column;
     justify-content: center;
   }
+  &__text {
+    margin-top: 20px;
+    margin-left: 0;
+  }
   &__button {
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
   &__contact {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    width: 760px;
+  }
+  &__table {
+    width: 300px;
+    margin-left: 0;
   }
 }
 }

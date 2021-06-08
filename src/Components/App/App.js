@@ -39,6 +39,7 @@ function App() {
     const removeEscListener = () => {
         document.removeEventListener('keydown', handleEscClose);
     }
+
     return (
         <div className="body">
             <Header handleMenuOpen={openMenu}/>

@@ -1,5 +1,4 @@
 import './Card.scss';
-import {NavLink} from 'react-router-dom';
 
 function Card(props) {
     return (
@@ -8,7 +7,7 @@ function Card(props) {
             <div className='card__text'>
                 <h3 className='card__title'>{props.title}</h3>
                 <p className='card__subtitle'>{props.subtitle}</p>
-                <NavLink className='card__link' to="/contact">Learn more   &rarr;</NavLink>
+                <div className='card__link' >Learn more   &rarr;</div>
             </div>
         </div>
     );

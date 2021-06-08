@@ -6,7 +6,7 @@ function Contact() {
     return (
         <section className="contact">
             <div className='contact__header'>
-                <h2 className='contact__header_title'>Contact Us</h2>
+                <h3 className='contact__header_title'>Contact Us</h3>
                 <p className='contact__header_subtitle'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             </div>
